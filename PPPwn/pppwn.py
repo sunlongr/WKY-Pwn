@@ -839,7 +839,7 @@ def main():
     if args.fw == '900':
         offs = OffsetsFirmware_900()
     elif args.fw == '9.60':
-        offs = OffsetsFirmware_9.60()
+        offs = OffsetsFirmware_950_960()
     elif args.fw == '9.00':
         offs = OffsetsFirmware_900()
     elif args.fw == '11.00':
